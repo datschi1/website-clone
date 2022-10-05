@@ -86,3 +86,14 @@ button:hover{
     align-items: center;
     margin-left: 24px;
 }
+
+
+.purple{
+    color:rgb(99, 21, 255) ;
+}
+
+#enter__email{
+    border-radius: 20px;
+    border:2px solid rgb(232, 232, 232);
+    padding:12px 32px; 
+}
