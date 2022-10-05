@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,9 +9,15 @@
 }
 
 nav{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto ;
+    align-items: center;
+    padding: 16px 24px;
 }
+
 
 .header__img{
     width:50px;
@@ -21,6 +27,7 @@ nav{
 
 ul{
     display: flex;
+    align-items: center;
 }
 
 li{
@@ -34,10 +41,48 @@ li{
 }
 
 .nav__h1{
-    font-size: 32;
+    font-size: 26px;
+    font-weight:900;
+    font-style: bold;
+    color: rgb(43, 58, 96);
 
 }
 
-.row{
-    padding:24px;
+.nav__h1:hover{
+    color: #6315ff;
+    cursor:pointer;
+    animation-delay: all 300ms;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(43, 58, 96, 0.9);
+    font-weight: 700 ;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #6315ff;
+}
+
+button{
+    border-radius: 20px ;
+    border:none;
+    padding:12px 32px;
+    background-color:rgb(99, 21, 255);
+    color:white;
+    font-weight: 700;
+    font-size: 0.875rem
+}
+
+button:hover{
+    background-color:rgb(119, 53, 252) ;
+    cursor: pointer;
+}
+
+.container__login{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
