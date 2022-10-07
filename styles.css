@@ -224,3 +224,31 @@ h5{
     max-width: 100%;
     width: 550px;
 }
+
+.features__column{
+    margin-top: 52px;
+    padding:0 24px;
+}
+
+.features__item{
+    display: flex;
+}
+
+.description{
+    margin: 8px 0 0 16px;
+    width: 250px;
+}
+
+.features__description{
+    margin-top: 16px;
+}
+
+
+.features__img{
+    flex-shrink: 0;
+    border: 2px solid lightgray;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center;
+}
