@@ -54,8 +54,8 @@ li{
 .nav__h1:hover{
     color: #6315ff;
     cursor:pointer;
-    animation-delay: all 300ms;
-}
+    transition-delay: all 300ms;
+}   
 
 a{
     text-decoration: none;
@@ -122,7 +122,7 @@ button:hover{
 }
     
 
-.header__container{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +147,7 @@ h1{
     width: 450px;
     max-width: 100%;
     text-align: left;
-    color: rgb(26, 32, 4,);
+    color:rgb(26, 32, 44);
 }
 
 .header__para{
@@ -187,4 +187,40 @@ h1{
 
 .input__button{
     display: flex;
+}
+
+/* FEATURES */
+
+h5{
+    color: rgb(99, 21, 255);
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+
+.features__description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features__h1{
+    max-width: 100% ;
+    width: 1200px;
+    text-align: center;
+    font-weight: 900;
+    opacity: 0.85;
+    font-size: 48px;
+}
+
+.features__para{
+    margin:16px 0;
+    text-align: center;
+    color: rgb(109, 109, 109 , 0.8);
+    font-size: 16px;
+    line-height:1.4;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 100%;
+    width: 550px;
 }
