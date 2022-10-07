@@ -191,13 +191,17 @@ h1{
 
 /* FEATURES */
 
+.features{
+    margin:96px 0px;
+}
+
 h5{
     color: rgb(99, 21, 255);
     letter-spacing: 5px;
     margin-bottom: 16px;
 }
 
-.features__description{
+.features__text{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -228,10 +232,14 @@ h5{
 .features__column{
     margin-top: 52px;
     padding:0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .features__item{
     display: flex;
+    margin: 14px;
 }
 
 .description{
@@ -245,10 +253,27 @@ h5{
 
 
 .features__img{
-    flex-shrink: 0;
+    width: 60px;
+    height:60px;
     border: 2px solid lightgray;
-    border-radius: 9999px;
+    border-radius: 100%;
     border-width: 1px;
     padding: 1.25rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features__icon{
+    align-self: center;
+}
+
+.features__title{
+    opacity: 0.85; 
+}
+
+.features__description{
+    color: rgb(109, 109, 109 , 0.8);
+    font-weight: 600;
+    line-height: 1.8;
 }
