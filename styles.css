@@ -197,7 +197,7 @@ h1{
 
 h5{
     color: rgb(99, 21, 255);
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     margin-bottom: 16px;
 }
 
@@ -287,3 +287,17 @@ h5{
     font-weight: 600;
     line-height: 1.8;
 }
+
+/* QUALITY WORK     */
+
+.quality__img{
+    max-width: 100%;
+    height: auto;
+    width: 550px;
+}
+
+.designed__section{
+    display: flex;
+    justify-content: space-between;
+}
+
