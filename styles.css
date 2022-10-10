@@ -229,12 +229,22 @@ h5{
     width: 550px;
 }
 
+.features__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .features__column{
     margin-top: 52px;
     padding:0 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
+    width: 1200px;
 }
 
 .features__item{
