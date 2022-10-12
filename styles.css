@@ -141,7 +141,7 @@ button:hover{
 }
 
 h1{
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.4;
     font-size: 42px;
     width: 450px;
@@ -208,23 +208,32 @@ h5{
     justify-content: center;
 }
 
-.features__h1{
+.features__h1 .designed__h1{
     max-width: 100% ;
     width: 1200px;
-    text-align: center;
+    
     font-weight: 900;
     opacity: 0.85;
     font-size: 48px;
 }
 
-.features__para{
-    margin:16px 0;
+.features__h1{
     text-align: center;
+}
+
+.features__para , .designed__para{
+    margin:16px 0;
+    
     color: rgb(109, 109, 109 , 0.8);
     font-size: 16px;
     line-height:1.4;
     font-weight: 500;
     font-size: 18px;
+    
+}
+
+.features__para{
+    text-align: center;
     max-width: 100%;
     width: 550px;
 }
@@ -299,5 +308,25 @@ h5{
 .designed__section{
     display: flex;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
+
+.designed__texts{
+    max-width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.designed__h1{
+    text-align: left;
+}
+
+.designed__para{
+    text-align: left;
+    width: 80%;
+    margin-bottom: 32px;
+}
