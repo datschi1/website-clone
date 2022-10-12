@@ -243,6 +243,7 @@ h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 96px 0 ;
 }
 
 
@@ -307,8 +308,13 @@ h5{
 
 .designed__section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 16px;
+    
+}
+
+.designed{
+    margin: 96px 0;
 }
 
 
