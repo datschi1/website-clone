@@ -69,7 +69,7 @@ a:hover{
     color: #6315ff;
 }
 
-button{
+button , .contact__btn , contact__btn--1{
     border-radius: 30px ;
     border:none;
     padding:12px 32px;
@@ -311,6 +311,7 @@ h5{
     display: flex;
     justify-content: space-around;
     padding: 96px 16px;
+    justify-content: center;
     
     
 }
@@ -341,23 +342,45 @@ h5{
 
 /* CONTACT */
 
+
+#contact{
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+}
+
 .contact__bg{
     background-color: rgb(99, 21, 255);
     
-    max-width: 70%;
+    max-width: 90%;
     position: relative;
     height: 30%;
     border: 2px solid rgb(99, 21, 255) ;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 96px 0;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
 }
 
 .contact__h2{
     font-weight: 700;
+    font-size: 30px;
     color: white;
-    width: 40%;
+    line-height: 35px;
+    
+}
+
+.contact__text{
+    width: 50%;
 }
 
 .contact__btn{
-    
+    border: 2px solid white;
+}
+
+.contact__btn--1{
+    background-color:red;
+    border: 2px solid red;
 }
