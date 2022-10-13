@@ -219,6 +219,7 @@ h5{
 
 .features__h1{
     text-align: center;
+    width: 1200px;
 }
 
 .features__para , .designed__para{
@@ -309,7 +310,8 @@ h5{
 .designed__section{
     display: flex;
     justify-content: space-around;
-    padding: 0 16px;
+    padding: 96px 16px;
+    
     
 }
 
@@ -335,4 +337,27 @@ h5{
     text-align: left;
     width: 80%;
     margin-bottom: 32px;
+}
+
+/* CONTACT */
+
+.contact__bg{
+    background-color: rgb(99, 21, 255);
+    
+    max-width: 70%;
+    position: relative;
+    height: 30%;
+    border: 2px solid rgb(99, 21, 255) ;
+    border-radius: 20px;
+    padding: 96px 0;
+}
+
+.contact__h2{
+    font-weight: 700;
+    color: white;
+    width: 40%;
+}
+
+.contact__btn{
+    
 }
