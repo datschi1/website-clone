@@ -4,6 +4,8 @@
     margin: 0;
     padding:0;
     font-family: 'Inter', sans-serif;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 
 }
 
@@ -364,6 +366,18 @@ h5{
     align-items: center;
 }
 
+@keyframes goleft{
+
+    0%{
+        transform: translatex(.1);
+    }
+
+    100%{
+        transition: translatex(1);
+    }
+
+}
+
 .contact__h2{
     font-weight: 700;
     font-size: 30px;
@@ -381,6 +395,15 @@ h5{
 }
 
 .contact__btn--1{
-    background-color:red;
-    border: 2px solid red;
+    background-color:#f56565;
+    border: 2px solid #f56565;
+}
+
+.contact__btn--1:hover{
+    background-color: #f42323;
+}
+
+.contact__btn:hover{
+    background-color: white;
+    color: #6315ff;
 }
