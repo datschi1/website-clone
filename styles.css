@@ -366,17 +366,7 @@ h5{
     align-items: center;
 }
 
-@keyframes goleft{
 
-    0%{
-        transform: translatex(.1);
-    }
-
-    100%{
-        transition: translatex(1);
-    }
-
-}
 
 .contact__h2{
     font-weight: 700;
