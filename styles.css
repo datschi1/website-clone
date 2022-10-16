@@ -420,15 +420,37 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 32px;
+    
+    
 }
 
 .lists__container{
     display: flex;
     justify-content: space-around;
+    
 }
 
-.footer__li{
+
+
+
+.footer__a{
     text-align: left;
     color: white;
     font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.footer__a:hover{
+    text-decoration: underline;
+    color: white;
+    cursor:pointer;
+}
+
+.footer__li{
+    margin-top: 12px;
+    
+
+    
 }
