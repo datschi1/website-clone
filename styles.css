@@ -4,8 +4,7 @@
     margin: 0;
     padding:0;
     font-family: 'Inter', sans-serif;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
+    
 
 }
 
@@ -382,11 +381,14 @@ h5{
 
 .contact__btn{
     border: 2px solid white;
+    padding:20px 40px;
 }
 
 .contact__btn--1{
     background-color:#f56565;
     border: 2px solid #f56565;
+    margin: 0 32px 0 0;
+    padding:20px 40px;
 }
 
 .contact__btn--1:hover{
@@ -396,4 +398,37 @@ h5{
 .contact__btn:hover{
     background-color: white;
     color: #6315ff;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(99, 21, 255) ;
+    padding: 96px 0;
+}
+
+
+.footer__h5{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer__ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.lists__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__li{
+    text-align: left;
+    color: white;
+    font-weight: 300;
 }
