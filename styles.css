@@ -63,12 +63,15 @@ a{
     text-decoration: none;
     color:rgb(43, 58, 96, 0.9);
     font-weight: 700 ;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 5px;
 
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: #6315ff;
+    border-color:#6315ff ;
 }
 
 button , .contact__btn , contact__btn--1{
@@ -440,13 +443,15 @@ footer{
     font-weight: 300;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
+    transition: all 300ms ease;
     
 }
 
 .footer__a:hover{
-    text-decoration: underline;
-    color: white;
+    border-color: white;
     cursor:pointer;
+    color: white;
+    text-decoration: none ;
 }
 
 .footer__li{
